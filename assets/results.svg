@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="1200" height="460" role="img" aria-label="Results: two tower versus popularity">
+<defs><linearGradient id="gg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1ed6a0"/><stop offset="1" stop-color="#0f8f6c"/></linearGradient></defs>
+<style>
+.g{transform-box:fill-box;transform-origin:50% 100%;animation:grow 9s ease-in-out infinite}.g2{animation-delay:.25s}
+@keyframes grow{0%{transform:scaleY(0)}14%,88%{transform:scaleY(1)}100%{transform:scaleY(0)}}
+.v{animation:fade 9s ease-in-out infinite}.v2{animation-delay:.25s}
+@keyframes fade{0%,10%{opacity:0}20%,86%{opacity:1}100%{opacity:0}}
+</style>
+<rect x="20" y="20" width="560" height="390" rx="22" fill="#12122a" stroke="#ffffff" stroke-opacity=".12"/>
+<text x="50" y="62" font-size="22" font-weight="800" fill="#fff" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">NDCG@10</text>
+<text x="50" y="86" font-size="14" fill="#9a9ac4" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">ranking quality of the top 10</text>
+<rect x="450" y="40" width="100" height="40" rx="20" fill="#1ed6a0"/><text x="500" y="66" text-anchor="middle" font-size="19" font-weight="800" fill="#06281f" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">+83%</text>
+<line x1="60" y1="345" x2="540" y2="345" stroke="#3a3a5c" stroke-width="2"/>
+<rect class="g g1" x="130" y="245.2" width="140" height="99.8" rx="10" fill="#8585b3"/>
+<rect class="g g2" x="330" y="162.4" width="140" height="182.6" rx="10" fill="url(#gg)"/>
+<text class="v v1" x="200" y="233.2" text-anchor="middle" font-size="22" font-weight="800" fill="#c9c9e8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">0.065</text>
+<text class="v v2" x="400" y="150.4" text-anchor="middle" font-size="24" font-weight="800" fill="#1ed6a0" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">0.119</text>
+<text x="200" y="375" text-anchor="middle" font-size="16" fill="#b5b5d8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">Popularity</text>
+<text x="400" y="375" text-anchor="middle" font-size="16" font-weight="700" fill="#fff" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">Two Tower</text><rect x="620" y="20" width="560" height="390" rx="22" fill="#12122a" stroke="#ffffff" stroke-opacity=".12"/>
+<text x="650" y="62" font-size="22" font-weight="800" fill="#fff" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">Recall@20</text>
+<text x="650" y="86" font-size="14" fill="#9a9ac4" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">share of held out tracks found in top 20</text>
+<rect x="1050" y="40" width="100" height="40" rx="20" fill="#1ed6a0"/><text x="1100" y="66" text-anchor="middle" font-size="19" font-weight="800" fill="#06281f" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">2.4x</text>
+<line x1="660" y1="345" x2="1140" y2="345" stroke="#3a3a5c" stroke-width="2"/>
+<rect class="g g1" x="730" y="269.4" width="140" height="75.6" rx="10" fill="#8585b3"/>
+<rect class="g g2" x="930" y="164.6" width="140" height="180.4" rx="10" fill="url(#gg)"/>
+<text class="v v1" x="800" y="257.4" text-anchor="middle" font-size="22" font-weight="800" fill="#c9c9e8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">0.0026</text>
+<text class="v v2" x="1000" y="152.6" text-anchor="middle" font-size="24" font-weight="800" fill="#1ed6a0" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">0.0063</text>
+<text x="800" y="375" text-anchor="middle" font-size="16" fill="#b5b5d8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">Popularity</text>
+<text x="1000" y="375" text-anchor="middle" font-size="16" font-weight="700" fill="#fff" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">Two Tower</text>
+<text x="600" y="442" text-anchor="middle" font-size="14" fill="#8e8eb8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">Test set: each user's newest 20% of tracks. 982 users, 175,612 track catalogue, already heard tracks excluded.</text>
+</svg>

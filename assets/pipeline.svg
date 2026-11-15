@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" width="1200" height="250" role="img" aria-label="Pipeline: events to SQL to features to model to evaluation">
+<style>.st{animation:up .7s ease both}@keyframes up{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.flow{stroke-dasharray:6 9;animation:dash 1s linear infinite}@keyframes dash{to{stroke-dashoffset:-30}}</style>
+<g class="st" style="animation-delay:0.0s">
+<rect x="30" y="50" width="196" height="140" rx="18" fill="#12122a" stroke="#1ed6a0" stroke-width="2"/>
+<circle cx="60" cy="82" r="15" fill="#1ed6a0"/><text x="60" y="88" text-anchor="middle" font-size="17" font-weight="800" fill="#0a0a14" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">1</text>
+<text x="84" y="88" font-size="18" font-weight="700" fill="#fff" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">Raw events</text>
+<text x="50" y="128" font-size="14.5" fill="#b5b5d8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">Last.fm 1K TSV</text>
+<text x="50" y="156" font-size="14.5" font-weight="700" fill="#1ed6a0" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">19.15M rows</text>
+<text x="128.0" y="222" text-anchor="middle" font-size="13" fill="#8484ad" font-family="Consolas, 'Courier New', monospace">src/data.py</text></g><line class="flow" x1="230" y1="120" x2="262" y2="120" stroke="#1ed6a0" stroke-width="3" stroke-linecap="round"/>
+<circle r="5" fill="#fff"><animateMotion dur="1.8s" begin="0.0s" repeatCount="indefinite" path="M230 120 L262 120"/></circle><g class="st" style="animation-delay:0.2s">
+<rect x="266" y="50" width="196" height="140" rx="18" fill="#12122a" stroke="#4cc9f0" stroke-width="2"/>
+<circle cx="296" cy="82" r="15" fill="#4cc9f0"/><text x="296" y="88" text-anchor="middle" font-size="17" font-weight="800" fill="#0a0a14" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">2</text>
+<text x="320" y="88" font-size="18" font-weight="700" fill="#fff" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">SQL</text>
+<text x="286" y="128" font-size="14.5" fill="#b5b5d8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">aggregate and filter</text>
+<text x="286" y="156" font-size="14.5" font-weight="700" fill="#4cc9f0" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">2.77M user track pairs</text>
+<text x="364.0" y="222" text-anchor="middle" font-size="13" fill="#8484ad" font-family="Consolas, 'Courier New', monospace">src/data.py</text></g><line class="flow" x1="466" y1="120" x2="498" y2="120" stroke="#4cc9f0" stroke-width="3" stroke-linecap="round"/>
+<circle r="5" fill="#fff"><animateMotion dur="1.8s" begin="0.45s" repeatCount="indefinite" path="M466 120 L498 120"/></circle><g class="st" style="animation-delay:0.4s">
+<rect x="502" y="50" width="196" height="140" rx="18" fill="#12122a" stroke="#7c5cff" stroke-width="2"/>
+<circle cx="532" cy="82" r="15" fill="#7c5cff"/><text x="532" y="88" text-anchor="middle" font-size="17" font-weight="800" fill="#0a0a14" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">3</text>
+<text x="556" y="88" font-size="18" font-weight="700" fill="#fff" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">Features</text>
+<text x="522" y="128" font-size="14.5" fill="#b5b5d8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">temporal split 70/10/20</text>
+<text x="522" y="156" font-size="14.5" font-weight="700" fill="#7c5cff" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">11 dense features</text>
+<text x="600.0" y="222" text-anchor="middle" font-size="13" fill="#8484ad" font-family="Consolas, 'Courier New', monospace">src/features.py</text></g><line class="flow" x1="702" y1="120" x2="734" y2="120" stroke="#7c5cff" stroke-width="3" stroke-linecap="round"/>
+<circle r="5" fill="#fff"><animateMotion dur="1.8s" begin="0.9s" repeatCount="indefinite" path="M702 120 L734 120"/></circle><g class="st" style="animation-delay:0.6000000000000001s">
+<rect x="738" y="50" width="196" height="140" rx="18" fill="#12122a" stroke="#ff3d9a" stroke-width="2"/>
+<circle cx="768" cy="82" r="15" fill="#ff3d9a"/><text x="768" y="88" text-anchor="middle" font-size="17" font-weight="800" fill="#0a0a14" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">4</text>
+<text x="792" y="88" font-size="18" font-weight="700" fill="#fff" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">Training</text>
+<text x="758" y="128" font-size="14.5" fill="#b5b5d8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">sampled softmax + logQ</text>
+<text x="758" y="156" font-size="14.5" font-weight="700" fill="#ff3d9a" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">early stopping on val</text>
+<text x="836.0" y="222" text-anchor="middle" font-size="13" fill="#8484ad" font-family="Consolas, 'Courier New', monospace">src/model.py + train.py</text></g><line class="flow" x1="938" y1="120" x2="970" y2="120" stroke="#ff3d9a" stroke-width="3" stroke-linecap="round"/>
+<circle r="5" fill="#fff"><animateMotion dur="1.8s" begin="1.35s" repeatCount="indefinite" path="M938 120 L970 120"/></circle><g class="st" style="animation-delay:0.8s">
+<rect x="974" y="50" width="196" height="140" rx="18" fill="#12122a" stroke="#ffb830" stroke-width="2"/>
+<circle cx="1004" cy="82" r="15" fill="#ffb830"/><text x="1004" y="88" text-anchor="middle" font-size="17" font-weight="800" fill="#0a0a14" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">5</text>
+<text x="1028" y="88" font-size="18" font-weight="700" fill="#fff" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">Evaluation</text>
+<text x="994" y="128" font-size="14.5" fill="#b5b5d8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">full catalogue ranking</text>
+<text x="994" y="156" font-size="14.5" font-weight="700" fill="#ffb830" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">NDCG@10, Recall@20</text>
+<text x="1072.0" y="222" text-anchor="middle" font-size="13" fill="#8484ad" font-family="Consolas, 'Courier New', monospace">src/metrics.py</text></g></svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="1200" height="160" role="img" aria-label="Dataset statistics">
+<style>.card{animation:up .8s ease both}@keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}</style><g class="card" style="animation-delay:0.0s"><rect x="0" y="14" width="276" height="130" rx="20" fill="#12122a" stroke="#1ed6a0" stroke-opacity=".55" stroke-width="1.5"/>
+<rect x="0" y="14" width="276" height="6" rx="3" fill="#1ed6a0"/>
+<text x="138" y="84" text-anchor="middle" font-size="46" font-weight="800" fill="#1ed6a0" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">19.15M</text>
+<text x="138" y="118" text-anchor="middle" font-size="17" fill="#b5b5d8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">listening events</text></g><g class="card" style="animation-delay:0.15s"><rect x="308" y="14" width="276" height="130" rx="20" fill="#12122a" stroke="#7c5cff" stroke-opacity=".55" stroke-width="1.5"/>
+<rect x="308" y="14" width="276" height="6" rx="3" fill="#7c5cff"/>
+<text x="446" y="84" text-anchor="middle" font-size="46" font-weight="800" fill="#7c5cff" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">982</text>
+<text x="446" y="118" text-anchor="middle" font-size="17" fill="#b5b5d8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">users</text></g><g class="card" style="animation-delay:0.3s"><rect x="616" y="14" width="276" height="130" rx="20" fill="#12122a" stroke="#ff3d9a" stroke-opacity=".55" stroke-width="1.5"/>
+<rect x="616" y="14" width="276" height="6" rx="3" fill="#ff3d9a"/>
+<text x="754" y="84" text-anchor="middle" font-size="46" font-weight="800" fill="#ff3d9a" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">175,612</text>
+<text x="754" y="118" text-anchor="middle" font-size="17" fill="#b5b5d8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">tracks in catalogue</text></g><g class="card" style="animation-delay:0.44999999999999996s"><rect x="924" y="14" width="276" height="130" rx="20" fill="#12122a" stroke="#ffb830" stroke-opacity=".55" stroke-width="1.5"/>
+<rect x="924" y="14" width="276" height="6" rx="3" fill="#ffb830"/>
+<text x="1062" y="84" text-anchor="middle" font-size="46" font-weight="800" fill="#ffb830" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">2.77M</text>
+<text x="1062" y="118" text-anchor="middle" font-size="17" fill="#b5b5d8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">user track pairs</text></g></svg>
