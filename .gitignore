@@ -1,0 +1,5 @@
+data/
+*.pt
+*.db
+__pycache__/
+results.json
